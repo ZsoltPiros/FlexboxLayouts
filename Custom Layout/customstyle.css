@@ -1,0 +1,98 @@
+body{
+  background: #141414;
+  margin: 0;
+  font-family: arial;
+}
+
+.wrapper{
+  width: 100%;
+  margin: auto;
+}
+
+nav{
+  background: #333;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+nav a{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 10px;
+}
+
+nav a:hover{
+  background-color: #555;
+}
+
+@media screen and (min-width: 768px) {
+
+  nav ul{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  nav li{
+    flex: 1 1 0;
+    text-align: center;
+  }
+}
+form{
+  margin: 20px;
+  color: #eee;
+}
+
+.container{
+  display: flex;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+    justify-content:center;
+    position: absolute;
+    left: 40%;
+    background:#222;
+    border-radius: 5px;
+}
+
+.secondcontainer{
+  display:flex;
+  position: fixed;
+  height: 100px;
+  bottom: 0;
+  width:inherit;
+  background:#222;
+  justify-content: center;
+  justify-content: space-between;
+
+}
+
+.secondcontainer a{
+  color:#fff;
+}
+
+button{
+  margin-left: 100px;
+  margin-top: 50px;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+input[type="username"],
+input[type="password"],
+input[type="email"],
+input[type="age"],
+input[type="country"],
+input[type="city"]{
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 10px 10px 50px;
+  border: 0;
+  border-radius: 4px;
+}
