@@ -84,12 +84,7 @@ button{
   padding: 10px;
 }
 
-input[type="username"],
-input[type="password"],
-input[type="email"],
-input[type="age"],
-input[type="country"],
-input[type="city"]{
+.field {
   display: block;
   margin-bottom: 20px;
   padding: 10px 10px 10px 50px;
