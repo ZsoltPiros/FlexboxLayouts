@@ -1,33 +1,41 @@
 body{
-  background: gray;
+  margin: 0;
 }
 
 .wrapper{
   width: 100%;
   margin: auto;
-  margin-top: 100px;
 }
 
-.secondcontainer{
+.container{
   display: flex;
   background: #fff;
-  height: 800px;
-  width: auto;
-  flex-flow: row;
-  justify-content: space-between;
+  height: 900px;
+  justify-content: space-around;
 }
 
 .box{
   height: auto;
   width: 550px;
   background: green;
+}
+
+.header{
+  display:flex;
+  position: fixed;
+  height: 100px;
+  top: 0;
+  width:inherit;
+  background:#222;
 
 }
 
-.one{
-  margin-left: 150px;
-}
+.footer{
+  display:flex;
+  position: fixed;
+  height: 100px;
+  bottom: 0;
+  width:inherit;
+  background:#222;
 
-.two{
-  margin-right: 150px;
 }

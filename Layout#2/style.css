@@ -1,5 +1,5 @@
 body{
-  background: gray;
+  margin: 0;
 }
 
 .wrapper{
@@ -8,7 +8,7 @@ body{
   margin-top: 100px;
 }
 
-.secondcontainer{
+.container{
   display: flex;
   background: #fff;
   height: 800px;
@@ -21,4 +21,22 @@ body{
   height: auto;
   width: 550px;
   background: green;
+}
+
+.header{
+  display:flex;
+  position: fixed;
+  height: 100px;
+  top: 0;
+  width:inherit;
+  background:#222;
+}
+
+.footer{
+  display:flex;
+  position: fixed;
+  height: 100px;
+  bottom: 0;
+  width:inherit;
+  background:#222;
 }
